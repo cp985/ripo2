@@ -1,0 +1,105 @@
+body {
+  background: rgb(6, 109, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 5px;
+  color: rgba(247, 222, 0, 0.89);
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.carte {
+  position: relative;
+  right: 5px;
+  display: inline-block;
+
+  background: whitesmoke;
+  color: black;
+  border-radius: 15px;
+  border: solid 5px black;
+  /* margin: 5px 10px 5px 10px; */
+  font-size: 140px;
+  width: 200px;
+  height: 320px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#player,
+#cpu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#player {
+  position: absolute;
+  left: 300px;
+}
+#cpu {
+  position: absolute;
+  right: 300px;
+}
+
+#bottone {
+  position: absolute;
+  bottom: 10px;
+  width: 220px;
+  height: 50px;
+  border: solid 3px black;
+  border-radius: 70px;
+  font-size: 30px;
+  font-stretch: expanded;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: blue;
+  color: yellow;
+}
+
+#tavolo {
+  border: double 3px rgba(255, 255, 0, 0.862);
+  padding-top: 20px;
+  width: 500px;
+  height: 350px;
+}
+
+#vittoria {
+  background: rgb(6, 109, 6);
+  position: absolute;
+  left: 20px;
+  border: double 3px rgba(255, 255, 0, 0.811);
+  width: 200px;
+  height: 300px;
+  font-size: 40px;
+  color: rgba(255, 255, 0, 0.811);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#sconfitta {
+  background: rgb(6, 109, 6);
+  position: absolute;
+  right: 20px;
+  border: double 3px rgba(255, 255, 0, 0.811);
+  width: 200px;
+  height: 300px;
+  font-size: 40px;
+  color: rgba(255, 255, 0, 0.811);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
