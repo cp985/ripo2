@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  width: 500px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex: 0 0 50%;
+  list-style-type: none;
+  position: relative;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+}
+ul {
+  margin: 0;
+  padding: 5px;
+  width: 200px;
+  height: fit-content;
+  /* background: yellow; */
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+h3 {
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 0 0 10px 10px;
+  font-size: 13px;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  margin: 0;
+  height: 50px;
+  border-collapse: collapse;
+  background: rgb(245, 245, 245);
+}
+
+div {
+  position: relative;
+  left: 550px;
+  bottom: 350px;
+  margin: 0;
+  padding: 0;
+  background: yellowgreen;
+  width: 200px;
+  height: 380px;
+}
+
+img {
+  margin: 0;
+  position: relative;
+  left: 0;
+  width: 200px;
+  height: 400px;
+}
+
+.colore1 {
+  background: rgb(252, 8, 8);
+}
+.colore2 {
+  background: rgb(4, 0, 254);
+}
+.colore3 {
+  background: rgb(247, 251, 0);
+}
+.colore4 {
+  background: rgb(2, 247, 31);
+}
+.colore5 {
+  background: rgb(255, 0, 255);
+}
+.colore6 {
+  background: rgb(1, 245, 224);
+}
