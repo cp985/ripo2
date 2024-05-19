@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex: content;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#login {
+  background: rgb(137, 255, 137);
+  display: flex;
+  flex: content;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 4px black;
+  border-radius: 20px;
+  min-width: fit-content;
+  width: 500px;
+  padding: 5px;
+}
+h3 {
+  margin: 5px;
+}
+
+input {
+  border: solid 1px black;
+  padding: 3px;
+  margin: 5px;
+}
+
+button {
+  position: relative;
+  padding: 3px;
+  margin: 5px auto;
+  border: solid 2px black;
+  width: 100px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(163, 163, 163);
+}
+
+h1 {
+  background: rgb(255, 153, 187);
+}
+
+div.squadre {
+  display: flex;
+  flex: content;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+
+label.dati1 {
+  margin-right: 38px;
+}
+label.dati2 {
+  margin-right: 10px;
+}
+label.dati3 {
+  margin-right: 66px;
+}
+
+div.paginaCarta {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background: rgb(2, 2, 173);
+  width: 1030px;
+  height: 550px;
+}
+
+div#carta {
+  color: blue;
+  text-align: center;
+  font-size: medium;
+  padding: 70px 5px 5px 5px;
+  white-space: pre-line;
+
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 100px auto;
+  width: 250px;
+  max-height: fit-content;
+  background: whitesmoke;
+  z-index: 11;
+}
+
+img {
+  position: absolute;
+  top: 120px;
+  left: 480px;
+  z-index: 12;
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70x;
+}
+
+.visibile {
+  display: block;
+}
+
+.nonVisibile {
+  display: none;
+}
